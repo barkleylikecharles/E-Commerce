@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const res = require('express/lib/response');
 const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
@@ -30,7 +31,7 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id,
   },
-    attributes: {"id", "tag_name"},
+    attributes: ["id", "tag_name"],
     include: [
     {
       model: Product,
@@ -41,13 +42,21 @@ router.get('/:id', (req, res) => {
 .then((dbTagData) => res.json(dbTagData))
 .catch((err) => {
   console.log(err);
-  res.status(500).json(err);
+  res.status(500).json({ message: 'No tag found with this id' });;
 })
 });
 
 
 router.post('/', (req, res) => {
   // create a new tag
+  Tag.create({
+    tag_name: req.body.tag_name
+  })
+  .then((dbTagData) => res.json(dbTagData))
+  .catch((err) => {
+    console.log(err);
+    res.status(500).json({message: "New tag NOT created"})
+  })
 });
 
 router.put('/:id', (req, res) => {
