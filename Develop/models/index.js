@@ -26,15 +26,6 @@ Tag.belongsToMany(Product, {
  });
 
 
-// Post.belongsToMany(User, {
-// through: Vote,
-// as: 'voted_posts',
-// foreignKey: 'post_id'
-// });
-// Vote.belongsTo(User, {
-// foreignKey: 'user_id'
-// });
-
 
 module.exports = {
   Product,
