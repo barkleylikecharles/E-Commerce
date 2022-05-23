@@ -1,14 +1,11 @@
 # E-Commerce
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
 
 ## Badges
 ![NPM](https://img.shields.io/badge/npm-CB3837?style=plastic&logo=npm&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node-6DA55F?style=plastic&logo=node.js&logoColor=white)
 
 ## Description
-Welcome to my E-Commerce Site.  This application is ideal for a small business owners to keep track of their employee roster, salary data, and department information.  View all current employees and their respective information in one place. Adding new employees, roles, and departments is a user friendly and streamline process.  
+Welcome to my E-Commerce Site.  This application is ideal for a business magager for an internet retail company to keep track of my product inventory.  This back end utilizes the latest technologies to make sure you stay competetive with other e-commerce comapies. User friendly and streamline process.
 
 ## Installation 
 Clone the repository to your local development environment. 
