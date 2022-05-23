@@ -3,6 +3,7 @@
 ## Badges
 ![NPM](https://img.shields.io/badge/npm-CB3837?style=plastic&logo=npm&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node-6DA55F?style=plastic&logo=node.js&logoColor=white)
+![Sequelize](https://img.shields.io/badge/sequelize-6DA55F?style=plastic&logo=sequelize&logoColor=white)
 
 ## Description
 Welcome to my E-Commerce Site.  This application is ideal for a business magager for an internet retail company to keep track of my product inventory.  This back end utilizes the latest technologies to make sure you stay competetive with other e-commerce comapies. User friendly and streamline process.
