@@ -16,9 +16,13 @@ User may clone the repo here https://github.com/barkleylikecharles/E-Commerce
 Next step is to run an npm init in their terminal to install all dependencies.
 
 ## Usage
+mysql db/schema.sql
+
+npm run seed
+
 npm start to begin prompts
 
-View a video tutorial here 
+View a video tutorial here https://youtu.be/C14i6Ttl16g
 
 ## Credits
 Project Completed by Nicole Barkley https://github.com/barkleylikecharles 
